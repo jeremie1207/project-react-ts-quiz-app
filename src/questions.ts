@@ -1,7 +1,7 @@
 export interface Question {
     id: string;
     text: string;
-    answers: Array<string>
+    answers: readonly string[]
 } 
 
 const questions: Array<Question> = [
