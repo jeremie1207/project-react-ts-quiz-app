@@ -4,7 +4,7 @@ export interface Question {
     answers: readonly string[]
 } 
 
-const questions: Array<Question> = [
+const QUESTIONS: Array<Question> = [
   {
     id: 'q1',
     text: 'Which of the following definitions best describes React.js?',
@@ -78,4 +78,4 @@ const questions: Array<Question> = [
 ];
 
 
-export default questions;
+export default QUESTIONS;

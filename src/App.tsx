@@ -5,7 +5,10 @@ import Quiz from "./components/Quiz";
 function App() {
   return <>
     <Header />
-    <Quiz />
+    <main>
+      <Quiz />
+    </main>
+    
   </>;
 }
 
